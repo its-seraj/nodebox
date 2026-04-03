@@ -1,13 +1,10 @@
-import NodePlayground from "./Editor"
+import NodePlayground from "./Editor";
 import "./App.css";
 
-function App() {
-
+export default function App() {
   return (
-    <>
+    <div className="app">
       <NodePlayground />
-    </>
-  )
+    </div>
+  );
 }
-
-export default App
